@@ -1,0 +1,265 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+ }
+ body {
+   background-color: #f3f4f6;
+   line-height: 1.6;
+   color: #333;
+ }
+ /* ===================================
+    NAVIGASI
+ =================================== */
+ .navigasi {
+   background-color: #0a2463;
+   color: white;
+   padding: 0.8rem 5%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   border-radius: 12px 12px 0 0;
+   margin: 1rem 5% 0;
+ }
+ .logo h4 {
+   font-size: 1rem;
+   font-weight: bold;
+ }
+ .menu ul {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+   flex-wrap: wrap;
+ }
+ .menu ul li a {
+   color: white;
+   text-decoration: none;
+   font-size: 0.8rem;
+ }
+ .btn-nav {
+   background-color: #90e0ef;
+   color: #0a2463;
+   border: none;
+   padding: 0.3rem 1rem;
+   border-radius: 20px;
+   font-size: 0.75rem;
+   font-weight: 500;
+   cursor: pointer;
+ }
+ /* ===================================
+    BANNER
+ =================================== */
+ .banner {
+   background: linear-gradient(180deg, #3b6bc2, #0a2463);
+   color: white;
+   text-align: center;
+   padding: 2rem 5% 3rem;
+   margin: 0 5%;
+   border-radius: 0 0 25px 25px;
+ }
+ .foto-banner img {
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   background-color: #fce38a;
+   padding: 0.4rem;
+   border: 3px solid white;
+   margin-bottom: 1rem;
+ }
+ .banner h1 {
+   font-size: clamp(2rem, 5vw, 2.8rem);
+   margin-bottom: 0.5rem;
+   letter-spacing: 1px;
+ }
+ .banner p {
+   font-size: 0.8rem;
+   opacity: 0.9;
+   margin-bottom: 1.5rem;
+ }
+ .btn-banner {
+   background-color: #fcd34d;
+   color: #0a2463;
+   border: none;
+   padding: 0.5rem 2rem;
+   border-radius: 25px;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ /* ===================================
+    CERITA SINGKAT
+ =================================== */
+ .cerita-singkat {
+   background-color: white;
+   margin: 2rem 5%;
+   padding: 2rem;
+   border-radius: 8px;
+   display: flex;
+   align-items: flex-start;
+   gap: 1.5rem;
+   flex-wrap: wrap;
+ }
+ .foto-kiri img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background-color: #fce38a;
+   padding: 0.5rem;
+   flex-shrink: 0;
+ }
+ .teks-cerita {
+   flex: 1;
+ }
+ .teks-cerita h2 {
+   color: #2c3e50;
+   font-size: 1.4rem;
+   margin-bottom: 0.8rem;
+ }
+ .teks-cerita p {
+   font-size: 0.9rem;
+   color: #444;
+   text-align: justify;
+ }
+ /* ===================================
+    RIWAYAT PENDIDIKAN
+ =================================== */
+ .bagian-pendidikan {
+   padding: 0 5% 2.5rem;
+   text-align: center;
+ }
+ .bagian-pendidikan h2 {
+   color: #2c3e50;
+   font-size: 1.4rem;
+   margin-bottom: 1.5rem;
+ }
+ .wadah-pendidikan {
+   display: flex;
+   justify-content: center;
+   gap: 1.2rem;
+   flex-wrap: wrap;
+ }
+ .kotak-pendidikan {
+   background-color: #f0f1f3;
+   width: 270px;
+   padding: 1.5rem;
+   border-radius: 4px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 0.8rem;
+ }
+ .kotak-pendidikan img {
+   width: 60px;
+   height: 60px;
+   object-fit: contain;
+ }
+ .kotak-pendidikan h3 {
+   font-size: 1rem;
+   font-weight: bold;
+   color: #222;
+ }
+ .kotak-pendidikan p {
+   font-size: 0.8rem;
+   color: #555;
+   line-height: 1.5;
+ }
+ /* ===================================
+    SOFTSKILL
+ =================================== */
+ .bagian-softskill {
+   padding: 0 5% 2.5rem;
+   text-align: center;
+ }
+ .bagian-softskill h2 {
+   color: #2c3e50;
+   font-size: 1.4rem;
+   margin-bottom: 1.5rem;
+ }
+ .wadah-softskill {
+   display: flex;
+   justify-content: center;
+   gap: 1.2rem;
+   flex-wrap: wrap;
+ }
+ .kotak-softskill {
+   background-color: #f0f1f3;
+   width: 270px;
+   padding: 1.5rem;
+   border-radius: 4px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 0.8rem;
+ }
+ .kotak-softskill img {
+   width: 55px;
+   height: 55px;
+   object-fit: contain;
+ }
+ .kotak-softskill h3 {
+   font-size: 1rem;
+   font-weight: bold;
+   color: #222;
+ }
+ .kotak-softskill p {
+   font-size: 0.8rem;
+   color: #555;
+   line-height: 1.5;
+ }
+ /* ===================================
+    KONTAK
+ =================================== */
+ .bagian-kontak {
+   background-color: #415E9B;
+   color: white;
+   margin: 0 5% 2rem;
+   padding: 1.2rem 2rem;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 1rem;
+ }
+ .info-kontak {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+ }
+ .info-kontak img {
+   width: 45px;
+   height: 45px;
+   object-fit: contain;
+ }
+ .teks-kontak h3 {
+   font-size: 1.1rem;
+   margin: 0;
+ }
+ .teks-kontak p {
+   font-size: 1rem;
+   margin: 0.2rem 0 0;
+   color: #fce38a;
+ }
+ .btn-kontak {
+   background-color: #c2e0f5;
+   color: #415E9B;
+   border: none;
+   padding: 0.4rem 1.5rem;
+   border-radius: 20px;
+   font-weight: 500;
+   cursor: pointer;
+ }
+ /* ===================================
+    FOOTER
+ =================================== */
+ .footer {
+   background-color: #294277;
+   color: white;
+   text-align: center;
+   padding: 0.8rem;
+   font-size: 0.75rem;
+ }
